@@ -1,0 +1,63 @@
+# Zero Trust Security Model
+
+## What is Zero Trust?
+
+Zero Trust is a modern security strategy that assumes no user, device, or application should be trusted automatically.
+
+The model follows the principle:
+
+> Never Trust, Always Verify
+
+## Three Core Principles
+
+### 1. Verify Explicitly
+
+Authenticate and authorize every request using:
+
+- User identity
+- Device health
+- Location
+- Risk level
+- Application
+- Data sensitivity
+
+---
+
+### 2. Least Privilege Access
+
+Grant users only the permissions they require.
+
+Examples:
+
+- Just-In-Time (JIT)
+- Just-Enough Administration (JEA)
+- Role-Based Access Control (RBAC)
+- Privileged Identity Management (PIM)
+
+---
+
+### 3. Assume Breach
+
+Operate as if attackers are already inside.
+
+Implement:
+
+- Network segmentation
+- Continuous monitoring
+- Threat detection
+- Rapid incident response
+
+#### 4. Practical Scenario
+Scenario
+
+An employee signs in from a new country using an unmanaged device.
+
+Zero Trust actions:
+
+✔ Verify user identity using MFA
+✔ Check device compliance using Intune
+✔ Evaluate sign-in risk with Entra ID Protection
+✔ Require Conditional Access
+✔ Restrict access to sensitive files
+✔ Log the activity in Microsoft Sentinel
+
