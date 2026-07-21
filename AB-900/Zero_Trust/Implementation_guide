@@ -1,0 +1,19 @@
+# Implement Zero Trust in Microsoft 365
+
+## Step 1
+Enable Microsoft Entra ID
+
+## Step 2
+Configure MFA
+
+## Step 3
+Create Conditional Access
+
+## Step 4
+Enable Microsoft Defender
+
+## Step 5
+Protect Data with Microsoft Purview
+
+## Step 6
+Monitor using Microsoft Defender XDR
